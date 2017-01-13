@@ -11,10 +11,10 @@ from datetime import datetime
 
 # %matplotlib inline
 
-api_key = "zLwXfUOKaNPdj1Ha8LYT9SOuD"
-api_secret = "b75hSBTudTqUFQ7cZVNh2ou1uMSYgUcMbmM2hmCzkqE5qLq509"
-access_token = "525398212-DjplhjcTo96EKpbFz380hESJhtqdIZLxXBuRGOAa" 
-access_token_secret = "94jUEIpcjYAbPxv6RwU8i3p7ddx0GZBxweCwRVGwy9zcu" 
+api_key = "xxx"
+api_secret = "xxx"
+access_token = "xxx" 
+access_token_secret = "xxx" 
 
 auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -70,5 +70,4 @@ try:
     # print("Total tweets in collection: %s" % col.count())
     # break
 except:
-    print 'what the fuck?'
     # print("ERROR# %s" % (error_counter + 1))
